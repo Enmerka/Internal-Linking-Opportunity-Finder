@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 st.title("Internal Linking Opportunities Finder")
 
 # File uploader for the keyword sheet
-uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs", type=["xlsx"])
+uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs. The required columns and the order they should be arranged are as follows Keyword", "Position", "Search Volume", "Keyword Difficulty", "Page URL", type=["xlsx"])
 
 if uploaded_file:
     # Load the Excel file into a DataFrame

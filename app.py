@@ -14,7 +14,7 @@ st.markdown("""
    - **Position**
    - **Search Volume**
    - **Keyword Difficulty**
-   - **Page URL**
+   - **URL**
 2. Save the file as an `.xlsx` format before uploading.
 """)
 

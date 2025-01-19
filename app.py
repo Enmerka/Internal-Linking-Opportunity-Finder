@@ -84,20 +84,13 @@ if uploaded_file:
 # Sidebar for app instructions
 st.sidebar.title("How to Use This App")
 st.sidebar.markdown("""
-This tool helps content teams calculate the compression ratio of pages in order assess the quality and relevance of their content. The compression ratio gives insights into the following:
+This tool assists SEO specialists, content teams and general website users in finding internal linking opportunities without having to pay a costly subscription. Internal linking is important in SEO because of th following reasons
 
-- **Risk of a future algorithmic penalty**
-- **Absence of page identity**
-- **Potential for ranking instabilities**
-- **Redundancy of words, context, semantics, and entity relationships on the page**
+- **The anchor texts are used as keyword relevancy signals for the target URL. This means that the keywords used to link to a page can influence the type of queries that page will be relevant for**
+- **Internal linking helps to improve a site's internal architecture. This helps search engines to determine the topical authority of the site while easing the flow of PageRank (or link equity)**
+- **Internal linking improves overall aggregation of implicit user feedback signals across the pages of a site**
+- **It can also be used to mold or sculpt the website representation vectors in ways that match whats obtaianble for leading sites in the same niche or vertical**
 
-### What is a Compression Ratio?
-The compression ratio is the degree to which a page can be compressed without losing its identity or meaning. A higher compression ratio suggests that the content on the page is redundant, filled with filler words, and potentially low in quality. In contrast, a lower ratio suggests that the page is rich in content.
-
-### Relevance in Content Marketing & SEO:
-Search engines aim to save resources by compressing web content during indexing. Pages with high compression ratios (above 4.0) are considered to be spammy or full of fillers. This can hurt your rankings, cause traffic declines, and increase the risk of algorithmic penalties.
-
-For better content marketing and SEO, focus on creating content that adds value and reduces redundancy, ensuring a low compression ratio.
-
-[Read More Here](https://gofishdigital.com/blog/identify-low-quality-pages-compression-python-seo/)  )
+### If All these seem unclear or complex then Join this community
+I have linked a Google form [here](https://forms.gle/ApsYbueBdggSvgFD6)  )
 """)

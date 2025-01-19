@@ -80,3 +80,24 @@ if uploaded_file:
                 st.warning("Please enter an absolute route!")
     else:
         st.error("Uploaded file does not have the required columns!")
+
+# Sidebar for app instructions
+st.sidebar.title("How to Use This App")
+st.sidebar.markdown("""
+This tool helps content teams calculate the compression ratio of pages in order assess the quality and relevance of their content. The compression ratio gives insights into the following:
+
+- **Risk of a future algorithmic penalty**
+- **Absence of page identity**
+- **Potential for ranking instabilities**
+- **Redundancy of words, context, semantics, and entity relationships on the page**
+
+### What is a Compression Ratio?
+The compression ratio is the degree to which a page can be compressed without losing its identity or meaning. A higher compression ratio suggests that the content on the page is redundant, filled with filler words, and potentially low in quality. In contrast, a lower ratio suggests that the page is rich in content.
+
+### Relevance in Content Marketing & SEO:
+Search engines aim to save resources by compressing web content during indexing. Pages with high compression ratios (above 4.0) are considered to be spammy or full of fillers. This can hurt your rankings, cause traffic declines, and increase the risk of algorithmic penalties.
+
+For better content marketing and SEO, focus on creating content that adds value and reduces redundancy, ensuring a low compression ratio.
+
+[Read More Here](https://gofishdigital.com/blog/identify-low-quality-pages-compression-python-seo/)  )
+""")

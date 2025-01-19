@@ -6,6 +6,18 @@ from bs4 import BeautifulSoup
 # App title
 st.title("Internal Linking Opportunities Finder")
 
+# Instructions for the user
+st.markdown("""
+### Instructions:
+1. Ensure your Excel file follows the exact column order and names:
+   - **Keyword**
+   - **Position**
+   - **Search Volume**
+   - **Keyword Difficulty**
+   - **Page URL**
+2. Save the file as an `.xlsx` format before uploading.
+""")
+
 # File uploader for the keyword sheet
 uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs", type=["xlsx"])
 

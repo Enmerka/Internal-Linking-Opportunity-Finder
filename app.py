@@ -26,7 +26,7 @@ if uploaded_file:
     list_keywords = pd.read_excel(uploaded_file)
     
     # Validate necessary columns
-    required_columns = ["Keyword", "Position", "Search Volume", "Keyword Difficulty", "Page URL"]
+    required_columns = ["Keyword", "Position", "Search Volume", "Keyword Difficulty", "URL"]
     if all(col in list_keywords.columns for col in required_columns):
         st.success("File loaded successfully!")
         
